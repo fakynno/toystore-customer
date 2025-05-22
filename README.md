@@ -28,8 +28,6 @@ Após o comando acima, o projeto estará disponível em:
 - **Swagger UI**: `http://localhost:8080/customer/swagger-ui/index.html#/` (A documentação interativa da API).
 
 
-
-
 ## Imagem Docker
 
 Se você quiser rodar a imagem Docker diretamente, pode usar a imagem hospedada no Docker Hub. Para isso, execute:
@@ -37,3 +35,8 @@ Se você quiser rodar a imagem Docker diretamente, pode usar a imagem hospedada 
 ```bash
 docker pull evaldofires/toystore-customer-app:1.0.2
 docker run -p 8080:8080 evaldofires/toystore-customer-app:1.0.2
+```
+
+## Jacoco Coverage
+
+![Cobertura de Testes](assets/Jacoco.png)
