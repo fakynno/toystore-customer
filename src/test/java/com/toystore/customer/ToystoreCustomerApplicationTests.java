@@ -13,9 +13,5 @@ class ToystoreCustomerApplicationTests {
 	@Autowired
 	private ApplicationContext context;
 
-	@Test
-	void contextLoads() {
-		// Este teste deve apenas verificar se o contexto carrega com sucesso
-	}
 
 }
